@@ -17,6 +17,8 @@
 		02EF67802462C3DD0098E4D8 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF677F2462C3DD0098E4D8 /* Repository.swift */; };
 		02EF67832462C4CA0098E4D8 /* ExampleJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF67822462C4CA0098E4D8 /* ExampleJson.swift */; };
 		02EF67852462C5660098E4D8 /* RepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF67842462C5660098E4D8 /* RepositoryTests.swift */; };
+		02EF67872462C7600098E4D8 /* ResponseBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF67862462C7600098E4D8 /* ResponseBody.swift */; };
+		02EF67892462C8F10098E4D8 /* ResponseBodyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF67882462C8F10098E4D8 /* ResponseBodyTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		02EF677F2462C3DD0098E4D8 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		02EF67822462C4CA0098E4D8 /* ExampleJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleJson.swift; sourceTree = "<group>"; };
 		02EF67842462C5660098E4D8 /* RepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryTests.swift; sourceTree = "<group>"; };
+		02EF67862462C7600098E4D8 /* ResponseBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseBody.swift; sourceTree = "<group>"; };
+		02EF67882462C8F10098E4D8 /* ResponseBodyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseBodyTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				02EF677F2462C3DD0098E4D8 /* Repository.swift */,
+				02EF67862462C7600098E4D8 /* ResponseBody.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			children = (
 				02EF67822462C4CA0098E4D8 /* ExampleJson.swift */,
 				02EF67842462C5660098E4D8 /* RepositoryTests.swift */,
+				02EF67882462C8F10098E4D8 /* ResponseBodyTests.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -228,6 +234,7 @@
 				02EF67612462C3900098E4D8 /* ViewController.swift in Sources */,
 				02EF675D2462C3900098E4D8 /* AppDelegate.swift in Sources */,
 				02EF675F2462C3900098E4D8 /* SceneDelegate.swift in Sources */,
+				02EF67872462C7600098E4D8 /* ResponseBody.swift in Sources */,
 				02EF67802462C3DD0098E4D8 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +245,7 @@
 			files = (
 				02EF67832462C4CA0098E4D8 /* ExampleJson.swift in Sources */,
 				02EF67742462C3940098E4D8 /* GitHubSearchClientTests.swift in Sources */,
+				02EF67892462C8F10098E4D8 /* ResponseBodyTests.swift in Sources */,
 				02EF67852462C5660098E4D8 /* RepositoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
