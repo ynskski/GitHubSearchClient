@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0210A4062465A6000059B6CC /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0210A4052465A6000059B6CC /* GitHubAPI.swift */; };
+		0210A4082465AE390059B6CC /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0210A4072465AE390059B6CC /* HTTPClient.swift */; };
 		02EF675D2462C3900098E4D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF675C2462C3900098E4D8 /* AppDelegate.swift */; };
 		02EF675F2462C3900098E4D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF675E2462C3900098E4D8 /* SceneDelegate.swift */; };
 		02EF67612462C3900098E4D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF67602462C3900098E4D8 /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		0210A4052465A6000059B6CC /* GitHubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPI.swift; sourceTree = "<group>"; };
+		0210A4072465AE390059B6CC /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		02EF67592462C3900098E4D8 /* GitHubSearchClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubSearchClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02EF675C2462C3900098E4D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02EF675E2462C3900098E4D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				02EF678C2463F4010098E4D8 /* GitHubAPIError.swift */,
 				02EF67902463FA9B0098E4D8 /* GitHubRequest.swift */,
 				0210A4052465A6000059B6CC /* GitHubAPI.swift */,
+				0210A4072465AE390059B6CC /* HTTPClient.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				02EF678D2463F4010098E4D8 /* GitHubAPIError.swift in Sources */,
 				02EF675D2462C3900098E4D8 /* AppDelegate.swift in Sources */,
 				02EF675F2462C3900098E4D8 /* SceneDelegate.swift in Sources */,
+				0210A4082465AE390059B6CC /* HTTPClient.swift in Sources */,
 				02EF67872462C7600098E4D8 /* ResponseBody.swift in Sources */,
 				02EF67802462C3DD0098E4D8 /* Repository.swift in Sources */,
 				02EF678B2463F3B20098E4D8 /* SearchClientError.swift in Sources */,
